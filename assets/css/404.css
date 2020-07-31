@@ -1,9 +1,5 @@
 body {
-   background-color: #F8F8FF;
-   background-image: url('../images/404.svg');
-   background-size: 60%;
-   background-repeat: no-repeat;
-   background-position: 50% 25%;
+   background: #F8F8FF url('../images/404.svg') no-repeat 50% 25% / 60%;
 }
 
 .logo {
