@@ -1,0 +1,52 @@
+body {
+   background-color: #F8F8FF;
+   background-image: url('../images/404.svg');
+   background-size: 60%;
+   background-repeat: no-repeat;
+   background-position: 50% 25%;
+}
+
+.logo {
+   width: 114px;
+}
+
+.main {
+   padding: 50px 0;
+}
+
+.content__heading {
+   font-size: 50px;
+   font-family: 'Oswald', sans-serif;
+   color: #362F74;
+}
+
+.content__description {
+   max-width: 350px;
+   text-align: justify;
+   line-height: 1.7;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 20px;
+}
+
+.btn-custom {
+   background-color: #362F74;
+   color: #fff;
+   font-size: 20px;
+   padding: 10px 25px;
+   transition: all .4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+.btn-custom:hover {
+   background-color: #2d2a4e;
+   color: #fff;
+}
+
+@media (min-width: 768px) {
+  
+   body {
+      background-size: 30%;
+      background-position: center 20%;
+   }
+
+}
